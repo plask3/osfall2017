@@ -1,7 +1,7 @@
 # Project 0
 
 * Assigned: 2017-09-11 Monday 17:00:00 KST
-* **Due: 2017-09-18 Monday 13:00:00 KST**
+* **Due: 2017-09-18 Monday 14:00:00 KST**
 
 ## Introduction
 
