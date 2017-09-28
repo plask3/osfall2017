@@ -109,7 +109,7 @@ For this project the default kernel configurations for the ARTIK device has to b
 These tools can be of great value as you work on this assignment.
 Debugfs documentation can be found [here](https://www.kernel.org/doc/Documentation/filesystems/debugfs.txt), and scheduler debugging information can be found in `/proc/sched_debug` and `/proc/schedstat` respectively.
 
-To make use of `/proc/sched_debug` and `/proc/schedstat` information, you should firstly enable `CONFIG_SCHED_DEBUG` and `CONFIG_SCHEDSTATS` options in `arch/arm/configs/tizen_tm1_defconfig`.
+To make use of `/proc/sched_debug` and `/proc/schedstat` information, you should firstly enable `CONFIG_SCHED_DEBUG` and `CONFIG_SCHEDSTATS` options in `arch/arm/configs/artik10_defconfig`.
 You can modify `sched/debug.c` and `sched/stats.c` - you may want to add something while you debug!
 The `debugfs` can be mounted with `mount -t debugfs none /sys/kernel/debug` if not already mounted.
 
