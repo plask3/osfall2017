@@ -8,7 +8,7 @@
 In this project, we will build our own CPU scheduler in the Tizen Linux kernel. Then, we test the scheduler with the ARTIK device.
 
 This is a team project.
-Each team will have access to its own GitHub repository (e.g. swsnu/os-team1) for collaboration and submission.
+Each team will have access to its own GitHub repository (e.g. ossnu/os-team1) for collaboration and submission.
 If you have not changed your team, you and your team will continue your work on the same repository you worked on for Project 1.
 Your final codes and `README.md` document have to be committed into the _proj2_ branch for submission.
 Start from the original [kernel source](https://github.com/pjbear1215/linux-3.10-artik)(you may already have it in your team repository's _master_ branch) and make incremental changes to get things done.
