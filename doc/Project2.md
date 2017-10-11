@@ -76,7 +76,7 @@ Furthermore, only the administrator may increase a process' weight.
 Any user should be able to call `sched_getweight()`.
 It is an error to try and set the weight on a process not using the `SCHED_WRR` policy.
 The system calls should handle all errors appropriately.
-The system calls should be implemented in `kernel/sched.c`.
+The system calls should be implemented in `kernel/sched/core.c`.
 
 The system calls refer to the process whose ID is specified by _pid_, i.e., only one task's weight should be changed in the kernel.
 (In _overly simplistic_ terms, the weight of the task_struct whose pid is specified by _pid_ is changed).
