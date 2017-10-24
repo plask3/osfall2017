@@ -1,7 +1,6 @@
 # Project 3: Rotation Lock
 
 * Assigned: 2017-10-25 Monday 14:00:00 KST
-* Design Review Due: 2017-04-07 Friday KST
 * **Due: 2017-11-20 Monday 14:00:00 KST**
 
 ## Introduction
